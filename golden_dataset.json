@@ -1,42 +1,352 @@
 [
     {
-        "input": "What physical and mental characteristics are octopuses known for?",
-        "expected_output": "Octopuses are known for their intelligence, flexible bodies, and eight arms."
+        "input": "How many arms does an octopus have?",
+        "expected_output": "Eight arms",
+        "source_evidence": "Octopuses are marine animals known for their intelligence, flexible bodies, and eight arms.",
+        "document_id": "doc_1",
+        "document_file": "doc1_octopuses.txt"
     },
     {
-        "input": "Where do octopuses usually shelter?",
-        "expected_output": "They usually shelter in rocky crevices, coral reefs, or other protected spaces."
+        "input": "Where do octopuses typically shelter?",
+        "expected_output": "In rocky crevices, coral reefs, or other protected spaces",
+        "source_evidence": "They live in oceans around the world, usually sheltering in rocky crevices, coral reefs, or other protected spaces.",
+        "document_id": "doc_1",
+        "document_file": "doc1_octopuses.txt"
     },
     {
-        "input": "What do octopuses typically search for when hunting prey?",
-        "expected_output": "They search for crabs, fish, and other small prey."
+        "input": "What do most octopus species spend much of their time searching for?",
+        "expected_output": "Crabs, fish, and other small prey",
+        "source_evidence": "Most species are solitary and spend much of their time searching for crabs, fish, and other small prey.",
+        "document_id": "doc_1",
+        "document_file": "doc1_octopuses.txt"
     },
     {
-        "input": "What are two reasons an octopus might change the color and texture of its skin?",
-        "expected_output": "An octopus changes its skin color and texture to blend into its surroundings or to communicate with another octopus."
+        "input": "How many hearts does an octopus have?",
+        "expected_output": "Three hearts",
+        "source_evidence": "An octopus has three hearts: two branchial hearts pump blood through each of the two gills, while a third systemic heart pumps blood through the rest of the body.",
+        "document_id": "doc_1",
+        "document_file": "doc1_octopuses.txt"
     },
     {
-        "input": "What are the specialized skin cells that control color and texture changes in an octopus called?",
-        "expected_output": "Chromatophores."
+        "input": "What gives octopus blood its distinctive blue color?",
+        "expected_output": "Copper-rich hemocyanin",
+        "source_evidence": "Their blood uses copper-rich hemocyanin rather than iron-based hemoglobin to transport oxygen, giving octopus blood a distinctive blue color.",
+        "document_id": "doc_1",
+        "document_file": "doc1_octopuses.txt"
     },
     {
-        "input": "How does camouflage assist an octopus in its environment?",
-        "expected_output": "Camouflage helps the octopus avoid predators and approach prey."
+        "input": "What specialized dermal cells control an octopus's camouflage ability?",
+        "expected_output": "Chromatophores",
+        "source_evidence": "This camouflage ability is controlled by specialized dermal cells called chromatophores, which are elastic pigment sacs surrounded by radial muscle fibers under direct neural control.",
+        "document_id": "doc_1",
+        "document_file": "doc1_octopuses.txt"
     },
     {
-        "input": "What specific problem-solving abilities do octopuses demonstrate according to the text?",
-        "expected_output": "They can open containers, navigate mazes, and learn from experience."
+        "input": "What purpose do iridophores serve in the skin of an octopus?",
+        "expected_output": "They produce structural iridescent greens and blues by reflecting light",
+        "source_evidence": "Beneath the chromatophores lie iridophores, which produce structural iridescent greens and blues by reflecting light, and leucophores, which scatter white light across a broad spectrum.",
+        "document_id": "doc_1",
+        "document_file": "doc1_octopuses.txt"
     },
     {
-        "input": "Why are octopuses capable of squeezing through very small openings?",
-        "expected_output": "Because they have no internal skeleton."
+        "input": "Where is two-thirds of an octopus's nervous system located?",
+        "expected_output": "In the nerve cords of its arms",
+        "source_evidence": "Two-thirds of an octopus's neurons are located in the nerve cords of its arms rather than its central brain, allowing each arm to explore, taste, and manipulate objects semi-autonomously.",
+        "document_id": "doc_1",
+        "document_file": "doc1_octopuses.txt"
     },
     {
-        "input": "What is the hardest part of an octopus's body?",
-        "expected_output": "The beak."
+        "input": "What is the only rigid component of an octopus's body?",
+        "expected_output": "Its hard chitinous beak",
+        "source_evidence": "Because they lack both an internal skeleton and an external shell, an octopus can squeeze its soft body through remarkably narrow crevices, provided the opening is large enough to accommodate its hard chitinous beak, which is the only rigid component of its body.",
+        "document_id": "doc_1",
+        "document_file": "doc1_octopuses.txt"
     },
     {
-        "input": "What limits how small an opening an octopus can squeeze through?",
-        "expected_output": "The opening must be large enough for the octopus's beak."
+        "input": "What are some predators of the octopus?",
+        "expected_output": "Moray eels",
+        "source_evidence": "Camouflage helps the animal avoid predators such as moray eels and approach prey without detection.",
+        "document_id": "doc_1",
+        "document_file": "doc1_octopuses.txt"
+    },
+    {
+        "input": "What genus do honeybees belong to?",
+        "expected_output": "Apis",
+        "source_evidence": "Honeybees are eusocial insects belonging to the genus Apis that live in highly structured colonies comprising three distinct castes: a single reproductive queen, tens of thousands of sterile female workers, and several hundred male drones.",
+        "document_id": "doc_2",
+        "document_file": "doc2_honeybees.txt"
+    },
+    {
+        "input": "What are the three distinct castes in a honeybee colony?",
+        "expected_output": "A single reproductive queen, tens of thousands of sterile female workers, and several hundred male drones.",
+        "source_evidence": "Honeybees are eusocial insects belonging to the genus Apis that live in highly structured colonies comprising three distinct castes: a single reproductive queen, tens of thousands of sterile female workers, and several hundred male drones.",
+        "document_id": "doc_2",
+        "document_file": "doc2_honeybees.txt"
+    },
+    {
+        "input": "What chemical substance does the queen bee secrete to maintain colony cohesion and suppress worker ovary development?",
+        "expected_output": "Queen Mandibular Pheromone (QMP)",
+        "source_evidence": "The queen bee is the mother of nearly all individuals in the hive and secretes Queen Mandibular Pheromone (QMP) to maintain colony cohesion and suppress the development of worker ovaries.",
+        "document_id": "doc_2",
+        "document_file": "doc2_honeybees.txt"
+    },
+    {
+        "input": "How do drone bees develop?",
+        "expected_output": "From unfertilized eggs through arrhenotokous parthenogenesis",
+        "source_evidence": "Drone bees develop from unfertilized eggs through arrhenotokous parthenogenesis and exist solely to mate with virgin queens from other colonies during nuptial flights, dying immediately upon successful copulation.",
+        "document_id": "doc_2",
+        "document_file": "doc2_honeybees.txt"
+    },
+    {
+        "input": "What is the behavioral organization where female worker bees perform tasks that change progressively as they age called?",
+        "expected_output": "Temporal polyethism",
+        "source_evidence": "Female worker bees perform tasks that change progressively as they age, a behavioral organization known as temporal polyethism.",
+        "document_id": "doc_2",
+        "document_file": "doc2_honeybees.txt"
+    },
+    {
+        "input": "What substance do newly emerged workers feed to developing brood, and which glands produce it?",
+        "expected_output": "Royal jelly, produced by their hypopharyngeal glands.",
+        "source_evidence": "Newly emerged workers clean cells and nurse developing brood, feeding larvae royal jelly produced by their hypopharyngeal glands.",
+        "document_id": "doc_2",
+        "document_file": "doc2_honeybees.txt"
+    },
+    {
+        "input": "Which ethologist deciphered ritualized honeybee dances?",
+        "expected_output": "Karl von Frisch",
+        "source_evidence": "Honeybee communication relies extensively on ritualized dances deciphered by ethologist Karl von Frisch.",
+        "document_id": "doc_2",
+        "document_file": "doc2_honeybees.txt"
+    },
+    {
+        "input": "What type of dance do returning foragers perform when a profitable floral patch is located within 50 meters?",
+        "expected_output": "A circular round dance",
+        "source_evidence": "When a profitable floral patch is located within 50 meters, returning foragers perform a circular round dance.",
+        "document_id": "doc_2",
+        "document_file": "doc2_honeybees.txt"
+    },
+    {
+        "input": "What does the duration of the waggle phase communicate in the waggle dance?",
+        "expected_output": "Distance",
+        "source_evidence": "The duration of the waggle phase communicates distance, with roughly one second of waggle vibration corresponding to approximately one kilometer of flight distance.",
+        "document_id": "doc_2",
+        "document_file": "doc2_honeybees.txt"
+    },
+    {
+        "input": "Between what precise temperatures do workers maintain hive brood?",
+        "expected_output": "32°C and 35°C",
+        "source_evidence": "Additionally, workers maintain hive brood temperatures precisely between 32°C and 35°C by shivering their flight muscles to generate heat or fanning wings and evaporating water droplets during excessive warmth.",
+        "document_id": "doc_2",
+        "document_file": "doc2_honeybees.txt"
+    },
+    {
+        "input": "What is the primary gas found in the atmosphere of Mars?",
+        "expected_output": "Carbon dioxide",
+        "source_evidence": "Mars possesses a tenuous atmosphere primarily consisting of 95.3% carbon dioxide, 2.6% molecular nitrogen, and 1.9% argon, with average surface atmospheric pressures hovering near 6.1 millibars, less than one percent of sea-level pressure on Earth.",
+        "document_id": "doc_3",
+        "document_file": "doc3_mars_exploration.txt"
+    },
+    {
+        "input": "What is the average surface atmospheric pressure on Mars?",
+        "expected_output": "Near 6.1 millibars",
+        "source_evidence": "Mars possesses a tenuous atmosphere primarily consisting of 95.3% carbon dioxide, 2.6% molecular nitrogen, and 1.9% argon, with average surface atmospheric pressures hovering near 6.1 millibars, less than one percent of sea-level pressure on Earth.",
+        "document_id": "doc_3",
+        "document_file": "doc3_mars_exploration.txt"
+    },
+    {
+        "input": "How low can surface temperatures drop at the winter polar caps on Mars?",
+        "expected_output": "Minus 125 degrees Celsius",
+        "source_evidence": "Surface temperatures are extreme, ranging from minus 125 degrees Celsius at winter polar caps to midday equatorial highs reaching 20 degrees Celsius.",
+        "document_id": "doc_3",
+        "document_file": "doc3_mars_exploration.txt"
+    },
+    {
+        "input": "When did NASA's Curiosity rover land within Gale Crater?",
+        "expected_output": "August 2012",
+        "source_evidence": "NASA's Curiosity rover landed within Gale Crater in August 2012, utilizing a sky-crane descent architecture.",
+        "document_id": "doc_3",
+        "document_file": "doc3_mars_exploration.txt"
+    },
+    {
+        "input": "What descent architecture did the Curiosity rover utilize?",
+        "expected_output": "Sky-crane descent architecture",
+        "source_evidence": "NASA's Curiosity rover landed within Gale Crater in August 2012, utilizing a sky-crane descent architecture.",
+        "document_id": "doc_3",
+        "document_file": "doc3_mars_exploration.txt"
+    },
+    {
+        "input": "What specific analytical payloads does Curiosity carry?",
+        "expected_output": "The Sample Analysis at Mars (SAM) instrument suite and the Chemistry and Camera (ChemCam) laser-induced breakdown spectrometer",
+        "source_evidence": "Curiosity carries specialized analytical payloads including the Sample Analysis at Mars (SAM) instrument suite and the Chemistry and Camera (ChemCam) laser-induced breakdown spectrometer.",
+        "document_id": "doc_3",
+        "document_file": "doc3_mars_exploration.txt"
+    },
+    {
+        "input": "When did NASA's Perseverance rover touch down in Jezero Crater?",
+        "expected_output": "February 2021",
+        "source_evidence": "NASA's Perseverance rover touched down in Jezero Crater in February 2021, targeting an ancient river delta that entered a paleolake billions of years ago.",
+        "document_id": "doc_3",
+        "document_file": "doc3_mars_exploration.txt"
+    },
+    {
+        "input": "What is the weight of the Ingenuity robotic coaxial rotorcraft?",
+        "expected_output": "1.8-kilogram",
+        "source_evidence": "Perseverance deployed Ingenuity, a 1.8-kilogram robotic coaxial rotorcraft that completed 72 flights, proving powered aerodynamic flight in thin Martian air.",
+        "document_id": "doc_3",
+        "document_file": "doc3_mars_exploration.txt"
+    },
+    {
+        "input": "How many flights did Ingenuity complete?",
+        "expected_output": "72 flights",
+        "source_evidence": "Perseverance deployed Ingenuity, a 1.8-kilogram robotic coaxial rotorcraft that completed 72 flights, proving powered aerodynamic flight in thin Martian air.",
+        "document_id": "doc_3",
+        "document_file": "doc3_mars_exploration.txt"
+    },
+    {
+        "input": "At what temperature did the MOXIE experiment operate via solid oxide electrolysis?",
+        "expected_output": "800 degrees Celsius",
+        "source_evidence": "Perseverance also tested in-situ resource utilization through the MOXIE experiment, which repeatedly extracted breathable molecular oxygen from atmospheric carbon dioxide via solid oxide electrolysis at 800 degrees Celsius.",
+        "document_id": "doc_3",
+        "document_file": "doc3_mars_exploration.txt"
+    },
+    {
+        "input": "What are the fields for which Alan Turing laid foundational principles?",
+        "expected_output": "Theoretical computer science, cryptanalysis, and machine intelligence.",
+        "source_evidence": "British mathematician and logician Alan Turing laid foundational principles for theoretical computer science, cryptanalysis, and machine intelligence.",
+        "document_id": "doc_4",
+        "document_file": "doc4_alan_turing.txt"
+    },
+    {
+        "input": "In what year was Turing's paper 'On Computable Numbers, with an Application to the Entscheidungsproblem' published?",
+        "expected_output": "1936",
+        "source_evidence": "In his 1936 paper \"On Computable Numbers, with an Application to the Entscheidungsproblem,\" Turing introduced an abstract theoretical computing machine consisting of an infinite paper tape scanned by a read-write head operating under finite state transitions.",
+        "document_id": "doc_4",
+        "document_file": "doc4_alan_turing.txt"
+    },
+    {
+        "input": "Whose Entscheidungsproblem did the universal Turing machine resolve in the negative?",
+        "expected_output": "David Hilbert's",
+        "source_evidence": "This model, now known as the universal Turing machine, established the mathematical definition of algorithmic computation and resolved David Hilbert's Entscheidungsproblem in the negative by proving that the Halting Problem is undecidable.",
+        "document_id": "doc_4",
+        "document_file": "doc4_alan_turing.txt"
+    },
+    {
+        "input": "Which German machine were the cipher messages from that Turing focused on decrypting at Bletchley Park?",
+        "expected_output": "Naval Enigma machine",
+        "source_evidence": "During the Second World War, Turing worked at Bletchley Park within Hut 8, focusing on cryptanalysis of cipher messages from the German naval Enigma machine.",
+        "document_id": "doc_4",
+        "document_file": "doc4_alan_turing.txt"
+    },
+    {
+        "input": "Who did Turing design the electromechanical Bombe machine with?",
+        "expected_output": "Gordon Welchman",
+        "source_evidence": "Together with Gordon Welchman, Turing designed the electromechanical Bombe machine, which systematically eliminated invalid rotor combinations using known-plaintext segments known as cribs, dramatically reducing the manual search space for decryption keys and expediting allied intelligence extraction.",
+        "document_id": "doc_4",
+        "document_file": "doc4_alan_turing.txt"
+    },
+    {
+        "input": "Where did Turing design the Automatic Computing Engine (ACE)?",
+        "expected_output": "National Physical Laboratory",
+        "source_evidence": "Following the war, Turing designed the Automatic Computing Engine (ACE) at the National Physical Laboratory in 1945, presenting one of the earliest designs for a stored-program digital computer that utilized acoustic mercury delay lines for high-speed dynamic memory storage.",
+        "document_id": "doc_4",
+        "document_file": "doc4_alan_turing.txt"
+    },
+    {
+        "input": "What type of memory storage did the ACE utilize?",
+        "expected_output": "Acoustic mercury delay lines",
+        "source_evidence": "Following the war, Turing designed the Automatic Computing Engine (ACE) at the National Physical Laboratory in 1945, presenting one of the earliest designs for a stored-program digital computer that utilized acoustic mercury delay lines for high-speed dynamic memory storage.",
+        "document_id": "doc_4",
+        "document_file": "doc4_alan_turing.txt"
+    },
+    {
+        "input": "In which journal was the paper 'Computing Machinery and Intelligence' published in 1950?",
+        "expected_output": "Mind",
+        "source_evidence": "In 1950, Turing published his seminal philosophical paper \"Computing Machinery and Intelligence\" in Mind, introducing the imitation game—later termed the Turing Test—as an operational benchmark for determining whether an artificial system exhibits human-equivalent intelligence.",
+        "document_id": "doc_4",
+        "document_file": "doc4_alan_turing.txt"
+    },
+    {
+        "input": "What was the imitation game later termed?",
+        "expected_output": "The Turing Test",
+        "source_evidence": "In 1950, Turing published his seminal philosophical paper \"Computing Machinery and Intelligence\" in Mind, introducing the imitation game—later termed the Turing Test—as an operational benchmark for determining whether an artificial system exhibits human-equivalent intelligence.",
+        "document_id": "doc_4",
+        "document_file": "doc4_alan_turing.txt"
+    },
+    {
+        "input": "What was the title of Turing's 1952 work in mathematical biology?",
+        "expected_output": "\"The Chemical Basis of Morphogenesis\"",
+        "source_evidence": "Turing spent his final years developing mathematical biology, authoring \"The Chemical Basis of Morphogenesis\" in 1952, which demonstrated how reaction-diffusion systems between morphogens spontaneously produce organic patterns such as stripes and whorls.",
+        "document_id": "doc_4",
+        "document_file": "doc4_alan_turing.txt"
+    },
+    {
+        "input": "What are deep-sea hydrothermal vents?",
+        "expected_output": "Fissures on oceanic tectonic plates where volcanically heated mineral fluids discharge into the deep ocean abyss.",
+        "source_evidence": "Deep-sea hydrothermal vents are fissures on oceanic tectonic plates where volcanically heated mineral fluids discharge into the deep ocean abyss.",
+        "document_id": "doc_5",
+        "document_file": "doc5_hydrothermal_vents.txt"
+    },
+    {
+        "input": "In what year were deep-sea hydrothermal vents first discovered?",
+        "expected_output": "1977",
+        "source_evidence": "They were first discovered in 1977 along the Galapagos Rift near the East Pacific Rise by oceanographers diving aboard the research submersible Alvin.",
+        "document_id": "doc_5",
+        "document_file": "doc5_hydrothermal_vents.txt"
+    },
+    {
+        "input": "Which research submersible were oceanographers diving aboard when they discovered hydrothermal vents?",
+        "expected_output": "Alvin",
+        "source_evidence": "They were first discovered in 1977 along the Galapagos Rift near the East Pacific Rise by oceanographers diving aboard the research submersible Alvin.",
+        "document_id": "doc_5",
+        "document_file": "doc5_hydrothermal_vents.txt"
+    },
+    {
+        "input": "Along what type of plate boundaries do hydrothermal vents typically form?",
+        "expected_output": "Divergent plate boundaries",
+        "source_evidence": "Hydrothermal vents typically form along divergent plate boundaries where cold seawater seeps deep into basaltic oceanic crust, encounters magma reservoirs, and superheats up to 400 degrees Celsius under hydrostatic pressure.",
+        "document_id": "doc_5",
+        "document_file": "doc5_hydrothermal_vents.txt"
+    },
+    {
+        "input": "What is the maximum temperature that superheated fluid can reach under hydrostatic pressure in these systems?",
+        "expected_output": "400 degrees Celsius",
+        "source_evidence": "Hydrothermal vents typically form along divergent plate boundaries where cold seawater seeps deep into basaltic oceanic crust, encounters magma reservoirs, and superheats up to 400 degrees Celsius under hydrostatic pressure.",
+        "document_id": "doc_5",
+        "document_file": "doc5_hydrothermal_vents.txt"
+    },
+    {
+        "input": "What do black smokers emit?",
+        "expected_output": "Dark plumes rich in iron monosulfide precipitate",
+        "source_evidence": "Black smokers emit dark plumes rich in iron monosulfide precipitate, whereas white smokers discharge cooler, acidic fluids dominated by barium, calcium, and silica complexes.",
+        "document_id": "doc_5",
+        "document_file": "doc5_hydrothermal_vents.txt"
+    },
+    {
+        "input": "What types of fluids do white smokers discharge?",
+        "expected_output": "Cooler, acidic fluids dominated by barium, calcium, and silica complexes",
+        "source_evidence": "Black smokers emit dark plumes rich in iron monosulfide precipitate, whereas white smokers discharge cooler, acidic fluids dominated by barium, calcium, and silica complexes.",
+        "document_id": "doc_5",
+        "document_file": "doc5_hydrothermal_vents.txt"
+    },
+    {
+        "input": "What process do vent ecosystems rely entirely on for energy?",
+        "expected_output": "Chemosynthesis driven by chemolithoautotrophic bacteria and archaea",
+        "source_evidence": "Vent ecosystems rely entirely on chemosynthesis driven by chemolithoautotrophic bacteria and archaea.",
+        "document_id": "doc_5",
+        "document_file": "doc5_hydrothermal_vents.txt"
+    },
+    {
+        "input": "What is the internal organ in giant tube worms where sulfur-oxidizing endosymbionts are harbored called?",
+        "expected_output": "Trophosome",
+        "source_evidence": "Adult tube worms possess neither a mouth, gut, nor digestive tract; instead, they harbor billions of sulfur-oxidizing endosymbionts in a vascularized internal organ termed the trophosome.",
+        "document_id": "doc_5",
+        "document_file": "doc5_hydrothermal_vents.txt"
+    },
+    {
+        "input": "What is the maximum temperature that Pompeii worms can endure while inhabiting chimney walls?",
+        "expected_output": "80 degrees Celsius",
+        "source_evidence": "Vent environments also host Pompeii worms (Alvinella pompejana), which inhabit chimney walls enduring temperatures up to 80 degrees Celsius.",
+        "document_id": "doc_5",
+        "document_file": "doc5_hydrothermal_vents.txt"
     }
 ]

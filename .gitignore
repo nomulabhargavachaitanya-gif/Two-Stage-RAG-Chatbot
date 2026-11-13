@@ -20,6 +20,10 @@ my_vectordb/
 
 # Evaluation Caches & Tool Artifacts
 .deepeval/
+prompt_cache.json
+.embedding_cache.json
+*.cache.json
+eval_results_summary.json
 
 # Operating System Files
 .DS_Store
