@@ -1,0 +1,42 @@
+[
+    {
+        "input": "What physical and mental characteristics are octopuses known for?",
+        "expected_output": "Octopuses are known for their intelligence, flexible bodies, and eight arms."
+    },
+    {
+        "input": "Where do octopuses usually shelter?",
+        "expected_output": "They usually shelter in rocky crevices, coral reefs, or other protected spaces."
+    },
+    {
+        "input": "What do octopuses typically search for when hunting prey?",
+        "expected_output": "They search for crabs, fish, and other small prey."
+    },
+    {
+        "input": "What are two reasons an octopus might change the color and texture of its skin?",
+        "expected_output": "An octopus changes its skin color and texture to blend into its surroundings or to communicate with another octopus."
+    },
+    {
+        "input": "What are the specialized skin cells that control color and texture changes in an octopus called?",
+        "expected_output": "Chromatophores."
+    },
+    {
+        "input": "How does camouflage assist an octopus in its environment?",
+        "expected_output": "Camouflage helps the octopus avoid predators and approach prey."
+    },
+    {
+        "input": "What specific problem-solving abilities do octopuses demonstrate according to the text?",
+        "expected_output": "They can open containers, navigate mazes, and learn from experience."
+    },
+    {
+        "input": "Why are octopuses capable of squeezing through very small openings?",
+        "expected_output": "Because they have no internal skeleton."
+    },
+    {
+        "input": "What is the hardest part of an octopus's body?",
+        "expected_output": "The beak."
+    },
+    {
+        "input": "What limits how small an opening an octopus can squeeze through?",
+        "expected_output": "The opening must be large enough for the octopus's beak."
+    }
+]

@@ -1,0 +1,26 @@
+Step 1 Summary: "I established a secure, isolated local development 
+                environment and implemented basic LLM client authentication 
+                using environment variables to safely connect my application 
+                to the Gemini API."
+
+Step 2 Summary: "I built a custom text processing module using a sliding 
+                 window algorithm to slice raw documents into overlapping 
+                 chunks, preventing context loss at the chunk boundaries."
+
+Step 3 Summary: "I integrated a text-embedding model API to convert 
+                unstructured text data into high-dimensional numerical 
+                vectors, enabling semantic similarity calculations."
+
+Step 4 Summary: "I implemented a mathematical retrieval system using 
+                 Cosine Similarity to compare high-dimensional vectors, 
+                 enabling the system to identify the most semantically 
+                 relevant document chunks."
+
+Step 5 Summary: "I engineered a prompt grounding mechanism that dynamically 
+                 injects vector search results into the LLM's context window,
+                 successfully constraining the model to prevent 
+                 hallucinations."
+
+Step 6 Summary: "I built an automated evaluation harness to quantitatively 
+                 measure the retrieval hit rate of my vector search engine 
+                 against a golden dataset, proving its accuracy."

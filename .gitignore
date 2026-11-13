@@ -1,0 +1,31 @@
+# Environment variables (NEVER commit secrets to git)
+.env
+.env.local
+*.env
+
+# Python Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Vector Database (Local data generated via ingest.py)
+my_vectordb/
+
+# Evaluation Caches & Tool Artifacts
+.deepeval/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+
